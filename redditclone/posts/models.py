@@ -8,4 +8,4 @@ class Post(models.Model):
 	pub_date = models.DateTimeField()
 	# to connect the posts to a specific user
 	author = models.ForeignKey(User)
-	votes_totale = models.IntegerField(default=1)
+	votes_total = models.IntegerField(default=1)
